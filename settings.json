@@ -1,0 +1,84 @@
+{
+    "editor.codeActionsOnSave": {},
+    "vim.leader": "<space>",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before":["<C-n>"],
+            "commands": [
+                ":nohl",
+            ]
+        },
+        {
+            "before":["leader", "t", "n"],
+            "commands": [
+                ":tabn",
+            ]
+        },
+        {
+            "before":["leader", "t", "p"],
+            "commands": [
+                ":tabp",
+            ]
+        },
+        {
+            "before":["leader", "t", "o"],
+            "commands": [
+                ":tabo",
+            ]
+        },
+        {
+            "before": ["leader", "w"],
+            "commands": [
+                "workbench.action.files.save",
+            ]
+        },
+        {
+            "before":["leader","t"],
+            "commands":["workbench.action.terminal.focus"]
+        },
+        {
+        "before": ["<C-l>"],
+        "after": ["<C-w>", "l"]
+        },
+        {
+        "before": ["<C-h>"],
+        "after": ["<C-w>", "h"]
+        },
+        {
+        "before": ["J"],
+        "after": ["5", "j"]
+        },
+        {
+        "before": ["K"],
+        "after": ["5", "k"]
+        },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "p",
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y"
+            ]
+        },
+    ],
+    "python.createEnvironment.trigger": "off",
+    "editor.minimap.enabled": false,
+    
+
+}
